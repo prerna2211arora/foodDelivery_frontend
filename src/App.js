@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./components/home/Home";
+import Cart from "./components/cart/Cart";
+import Checkout from "./components/checkout/Checkout";
+import Login from "./components/login/Login";
+import OrderHistory from "./components/orderHistory/OrderHistory";
+import AddressEdit from "./components/addressEdit/AddressEdit";
+import RestaurantMenu from "./components/restaurantMenu/RestaurantMenu";
+import { CartProvider } from "./CartContext";
+import ChatBot from "./components/ChatBot";
+import Footer from "./components/footer/Footer";
 
 function App() {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    // Check local storage for user data on initial load
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CartProvider>
+      <Router>
+        <Navbar user={user} setUser={setUser} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login setUser={setUser} />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/order-history" element={<OrderHistory />} />
+          <Route path="/address-edit" element={<AddressEdit />} />
+          <Route path="/restaurant/:id" element={<RestaurantMenu />} />
+        </Routes>
+      </Router>
+      <ChatBot />
+      <Footer />
+    </CartProvider>
   );
 }
 

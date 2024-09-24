@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Palace",
+    "image": "https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg",
+    "items": [
+      {
+        "id": 101,
+        "name": "Margherita",
+        "price": 350,
+        "image": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 102,
+        "name": "Pepperoni",
+        "price": 400,
+        "image": "https://images.pexels.com/photos/268148/pexels-photo-268148.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 103,
+        "name": "BBQ Chicken",
+        "price": 450,
+        "image": "https://images.pexels.com/photos/3025326/pexels-photo-3025326.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 104,
+        "name": "Hawaiian",
+        "price": 420,
+        "image": "https://images.pexels.com/photos/3779887/pexels-photo-3779887.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 105,
+        "name": "Veggie Supreme",
+        "price": 370,
+        "image": "https://images.pexels.com/photos/1610770/pexels-photo-1610770.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 106,
+        "name": "Meat Feast",
+        "price": 480,
+        "image": "https://images.pexels.com/photos/2221329/pexels-photo-2221329.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 107,
+        "name": "Four Cheese",
+        "price": 390,
+        "image": "https://images.pexels.com/photos/1585455/pexels-photo-1585455.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 108,
+        "name": "Spicy Italian",
+        "price": 430,
+        "image": "https://images.pexels.com/photos/5805611/pexels-photo-5805611.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 109,
+        "name": "Tandoori Paneer",
+        "price": 410,
+        "image": "https://images.pexels.com/photos/13782827/pexels-photo-13782827.jpeg",
+        "category": "Pizza"
+      },
+      {
+        "id": 110,
+        "name": "Farmhouse",
+        "price": 380,
+        "image": "https://images.pexels.com/photos/674007/pexels-photo-674007.jpeg",
+        "category": "Pizza"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Burger Joint",
+    "image": "https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg",
+    "items": [
+      {
+        "id": 201,
+        "name": "Classic Burger",
+        "price": 250,
+        "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg",
+        "category": "Burger"
+      },
+      {
+        "id": 202,
+        "name": "Cheeseburger",
+        "price": 280,
+        "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg",
+        "category": "Burger"
+      },
+      {
+        "id": 203,
+        "name": "Chicken Burger",
+        "price": 300,
+        "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg",
+        "category": "Burger"
+      },
+      {
+        "id": 204,
+        "name": "Vegan Burger",
+        "price": 320,
+        "image": "https://images.pexels.com/photos/1662280/pexels-photo-1662280.jpeg",
+        "category": "Burger"
+      },
+      {
+        "id": 205,
+        "name": "Bacon Burger",
+        "price": 350,
+        "image": "https://images.pexels.com/photos/617717/pexels-photo-617717.jpeg",
+        "category": "Burger"
+      },
+      {
+        "id": 206,
+        "name": "Mushroom Swiss",
+        "price": 340,
+        "image": "https://images.pexels.com/photos/41156/pexels-photo-41156.jpeg",
+        "category": "Burger"
+      },
+      {
+        "id": 207,
+        "name": "Double Patty",
+        "price": 390,
+        "image": "https://images.pexels.com/photos/2880968/pexels-photo-2880968.jpeg",
+        "category": "Burger"
+      },
+      {
+        "id": 208,
+        "name": "BBQ Burger",
+        "price": 360,
+        "image": "https://images.pexels.com/photos/618163/pexels-photo-618163.jpeg",
+        "category": "Burger"
+      },
+      {
+        "id": 209,
+        "name": "Spicy Jalapeno",
+        "price": 310,
+        "image": "https://images.pexels.com/photos/2069735/pexels-photo-2069735.jpeg",
+        "category": "Burger"
+      },
+      {
+        "id": 210,
+        "name": "Fish Burger",
+        "price": 320,
+        "image": "https://images.pexels.com/photos/1416401/pexels-photo-1416401.jpeg",
+        "category": "Burger"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Arora Sweets Shop",
+    "image": "https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg",
+    "items": [
+      {
+        "id": 301,
+        "name": "Ras Malai",
+        "price": 150,
+        "image": "https://images.pexels.com/photos/1286590/pexels-photo-1286590.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 302,
+        "name": "Gulab Jamun",
+        "price": 120,
+        "image": "https://images.pexels.com/photos/1448596/pexels-photo-1448596.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 303,
+        "name": "Jalebi",
+        "price": 100,
+        "image": "https://images.pexels.com/photos/664897/pexels-photo-664897.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 304,
+        "name": "Ladoo",
+        "price": 130,
+        "image": "https://images.pexels.com/photos/2777175/pexels-photo-2777175.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 305,
+        "name": "Kaju Katli",
+        "price": 250,
+        "image": "https://images.pexels.com/photos/3079176/pexels-photo-3079176.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 306,
+        "name": "Rasgulla",
+        "price": 140,
+        "image": "https://images.pexels.com/photos/1774280/pexels-photo-1774280.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 307,
+        "name": "Barfi",
+        "price": 160,
+        "image": "https://images.pexels.com/photos/1823158/pexels-photo-1823158.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 308,
+        "name": "Peda",
+        "price": 180,
+        "image": "https://images.pexels.com/photos/1856631/pexels-photo-1856631.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 309,
+        "name": "Soan Papdi",
+        "price": 110,
+        "image": "https://images.pexels.com/photos/2479733/pexels-photo-2479733.jpeg",
+        "category": "Dessert"
+      },
+      {
+        "id": 310,
+        "name": "Malai Barfi",
+        "price": 190,
+        "image": "https://images.pexels.com/photos/1941585/pexels-photo-1941585.jpeg",
+        "category": "Dessert"
+      }
+    ]
+  }
+]
